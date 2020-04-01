@@ -1,0 +1,94 @@
+object frmCategoria: TfrmCategoria
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 141
+  ClientWidth = 579
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 579.000000000000000000
+    Size.Height = 141.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 579.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lblIdade: TLabel
+        StyledSettings = [FontColor]
+        Position.X = 16.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 65.000000000000000000
+        Size.Height = 27.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = '&Idade'
+        TabOrder = 1
+      end
+      object edtIdade: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        TextSettings.Font.Size = 24.000000000000000000
+        Position.X = 96.000000000000000000
+        Position.Y = 24.000000000000000000
+        Size.Width = 89.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object recResultado: TRectangle
+        Position.X = 408.000000000000000000
+        Position.Y = 13.000000000000000000
+        Size.Width = 137.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        object lblCategoria: TLabel
+          Align = Client
+          StyledSettings = [Family, Style]
+          Size.Width = 137.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.FontColor = xFFF68178
+          TextSettings.HorzAlign = Center
+          Text = 'lblCategoria'
+          TabOrder = 0
+        end
+      end
+      object lblCategoriaIdentificado: TLabel
+        StyledSettings = [FontColor]
+        Position.X = 204.000000000000000000
+        Position.Y = 19.000000000000000000
+        Size.Width = 193.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = '&Categoria Identificada'
+        TabOrder = 0
+      end
+    end
+    object btnCategoria: TButton
+      StyledSettings = [Family, FontColor]
+      Position.X = 120.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 361.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Identificar a Categoria do nadador'
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      OnClick = btnCategoriaClick
+    end
+  end
+end

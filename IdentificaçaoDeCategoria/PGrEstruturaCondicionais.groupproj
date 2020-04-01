@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BF8C86A5-2B2C-4D99-AA1F-CAB2DDCEEB63}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="IdentificacaoDeCategoria.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\CalculoPeso\CalcularPeso.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="IdentificacaoDeCategoria">
+        <MSBuild Projects="IdentificacaoDeCategoria.dproj"/>
+    </Target>
+    <Target Name="IdentificacaoDeCategoria:Clean">
+        <MSBuild Projects="IdentificacaoDeCategoria.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IdentificacaoDeCategoria:Make">
+        <MSBuild Projects="IdentificacaoDeCategoria.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CalcularPeso">
+        <MSBuild Projects="..\CalculoPeso\CalcularPeso.dproj"/>
+    </Target>
+    <Target Name="CalcularPeso:Clean">
+        <MSBuild Projects="..\CalculoPeso\CalcularPeso.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalcularPeso:Make">
+        <MSBuild Projects="..\CalculoPeso\CalcularPeso.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="IdentificacaoDeCategoria;CalcularPeso"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="IdentificacaoDeCategoria:Clean;CalcularPeso:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="IdentificacaoDeCategoria:Make;CalcularPeso:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
