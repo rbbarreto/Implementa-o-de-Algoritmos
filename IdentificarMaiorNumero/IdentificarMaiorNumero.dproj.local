@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/04/06 08:33:10.000.786,=C:\Users\rbbar\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/04/09 14:03:01.000.811,=C:\Users\rbbar\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/04/09 14:03:48.000.696,C:\Projetos\Implementar Algoritmos\trunk\IdentificarMaiorNumero\Unit2.pas=C:\Users\rbbar\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/04/09 14:03:48.000.696,C:\Projetos\Implementar Algoritmos\trunk\IdentificarMaiorNumero\Unit2.dfm=C:\Users\rbbar\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2020/04/09 14:03:50.000.964,C:\Projetos\Implementar Algoritmos\trunk\IdentificarMaiorNumero\Project1.dproj=C:\Users\rbbar\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/04/09 14:04:00.000.919,C:\Projetos\Implementar Algoritmos\trunk\IdentificarMaiorNumero\IdentificarMaiorNumero.dproj=C:\Projetos\Implementar Algoritmos\trunk\IdentificarMaiorNumero\Project1.dproj</Transaction>
+    <Transaction>2020/04/11 17:54:54.000.640,=C:\Projetos\Implementar Algoritmos\trunk\IdentificarMaiorNumero\View.MaiorNumero.pas</Transaction>
+  </Transactions>
+</BorlandProject>
