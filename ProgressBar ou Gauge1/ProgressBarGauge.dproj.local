@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/04/12 19:40:21.000.184,=C:\Projetos\Implementar Algoritmos\trunk\ProgressBar ou Gauge1\Unit1.pas</Transaction>
+    <Transaction>2020/04/12 19:41:06.000.082,C:\Projetos\Implementar Algoritmos\trunk\ProgressBar ou Gauge1\Unit1.dfm=C:\Projetos\Implementar Algoritmos\trunk\ProgressBar ou Gauge1\udmDados.dfm</Transaction>
+    <Transaction>2020/04/12 19:41:06.000.082,C:\Projetos\Implementar Algoritmos\trunk\ProgressBar ou Gauge1\Unit1.pas=C:\Projetos\Implementar Algoritmos\trunk\ProgressBar ou Gauge1\udmDados.pas</Transaction>
+  </Transactions>
+</BorlandProject>
