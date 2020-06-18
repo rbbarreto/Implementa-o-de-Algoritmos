@@ -63,7 +63,6 @@ begin
   end;
 
   edtNumero.Text := #0;
-  edtNumero.SetFocus;
 end;
 
 procedure TfrmNumerosPares.btnParesClick(Sender: TObject);

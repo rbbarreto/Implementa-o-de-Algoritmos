@@ -26,8 +26,6 @@ object frmNumerosPares: TfrmNumerosPares
     Color = 16744576
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 535
-    ExplicitHeight = 328
     object Label1: TLabel
       Left = 32
       Top = 62
@@ -51,8 +49,6 @@ object frmNumerosPares: TfrmNumerosPares
       Color = 8421440
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 292
-      ExplicitWidth = 535
       object Button1: TButton
         AlignWithMargins = True
         Left = 448
@@ -69,7 +65,6 @@ object frmNumerosPares: TfrmNumerosPares
         ParentFont = False
         TabOrder = 0
         OnClick = Button1Click
-        ExplicitLeft = 457
       end
     end
     object btnAceitar: TButton
@@ -130,6 +125,8 @@ object frmNumerosPares: TfrmNumerosPares
         Height = 177
         Align = alClient
         TabOrder = 0
+        ExplicitLeft = 1
+        ExplicitTop = 26
       end
     end
     object pnlHead: TPanel
@@ -149,7 +146,6 @@ object frmNumerosPares: TfrmNumerosPares
       ParentBackground = False
       ParentFont = False
       TabOrder = 5
-      ExplicitWidth = 535
     end
     object lbxNumeros: TListBox
       Left = 279
