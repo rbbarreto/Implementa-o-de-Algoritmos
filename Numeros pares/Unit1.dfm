@@ -125,8 +125,6 @@ object frmNumerosPares: TfrmNumerosPares
         Height = 177
         Align = alClient
         TabOrder = 0
-        ExplicitLeft = 1
-        ExplicitTop = 26
       end
     end
     object pnlHead: TPanel

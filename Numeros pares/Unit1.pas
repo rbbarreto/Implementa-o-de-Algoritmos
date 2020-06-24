@@ -33,6 +33,7 @@ type
 
 var
   frmNumerosPares: TfrmNumerosPares;
+
   QtdeNumero: Integer;
   Numeros: Array [1..10] of Integer;
 
@@ -56,7 +57,7 @@ begin
 
   if (QtdeNumero = 10) then
   begin
-    MessageDlg('Digite um valor inteiro e positivo', mtInformation, [mbOK], 0);
+    MessageDlg('Quantidade permitida até 10', mtInformation, [mbOK], 0);
     btnAceitar.Enabled := False;
     edtNumero.Enabled := False;
     btnPares.Visible := True;
