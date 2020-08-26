@@ -7,6 +7,9 @@ Todos este exemplo foi Tirado do livro com informações acima, tenho que da meu
 Everton coimbra de Araújo
 Alessandra B. G. hoffman
 
-Esta libro é muito bom, pra quem está afim de aprende os conceito básico de Delphi, tem uma didatica muito boa, 
-Os exemplos são bem simples para seu desenvolvimento.
+Esta livro é muito bom, indico para aquelas pessoas que afim de aprende os conceito básico de Delphi.
+Estou deixando todos os exemplo que estou fazendo sobre o Livro.
+
+Estou adicionando mais exemplo que não esta neste livro como Bonus, espero que goste pessoal.
+
 
